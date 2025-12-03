@@ -1,0 +1,13 @@
+package Java_Lesson_5.file4;
+
+class Main{
+    int age;
+    Main(int age){
+        this.age = age;
+    }
+
+    public static void main(String[] args) {
+        Main obj = new Main(24);
+        System.out.println("obj.age:"+obj.age);
+    }
+}
